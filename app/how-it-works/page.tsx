@@ -1,0 +1,4 @@
+import { PageHeading,Steps,FinalCta } from '@/components/sections';
+import { pageMetadata } from '@/lib/seo';
+export const metadata=pageMetadata('How It Works','Learn how Infinite Auto Leasing PA helps you find, choose, purchase, or lease your next new vehicle in Philadelphia.','/how-it-works');
+export default function Page(){return <main id="main"><PageHeading eyebrow="A CLEAR PATH TO YOUR NEXT CAR" title="Less legwork. More possibility."><p>A personal conversation starts the process. We’ll help you understand your options and the next steps, from your first idea to your next set of keys.</p></PageHeading><section className="wrap section"><Steps/><div className="note-panel"><h3>At your pace, with your preferences in mind.</h3><p>You choose the vehicle that works for you after reviewing purchase, lease, or financing possibilities. Timing, vehicle availability, and final terms vary—we’ll discuss the details with you.</p></div></section><FinalCta/></main>}

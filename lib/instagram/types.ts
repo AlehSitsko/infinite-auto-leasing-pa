@@ -1,0 +1,1 @@
+export type SocialVehiclePost = {id:string; imageUrl:string; permalink:string; caption?:string; timestamp:string; vehicleTitle?:string; status:'sold'|'available'|'coming-soon'|'unknown'; mediaType:'IMAGE'|'CAROUSEL_ALBUM'|'VIDEO'};
