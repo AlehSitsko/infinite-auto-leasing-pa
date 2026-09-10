@@ -9,4 +9,4 @@ export const business = {
  hours: null as null | string, yearFounded: null as null | number,
  languages: ['English', 'Russian', 'Ukrainian'], serviceAreas: ['Philadelphia', 'Northeast Philadelphia'],
 };
-export const navigation = [['/', 'Home'], ['/find-a-car', 'Find a Car'], ['/how-it-works', 'How It Works'], ['/deliveries', 'Cars We’ve Delivered'], ['/partnerships', 'Partnerships'], ['/about', 'About'], ['/contact', 'Contact']] as const;
+export const navigation = [['/', 'Home'], ['/find-a-car', 'Find a Car'], ['/how-it-works', 'How It Works'], ['/deliveries', 'Cars We’ve Delivered'], ['/partnerships', 'Partnerships'], ['/about', 'About'], ['/reviews', 'Reviews'], ['/contact', 'Contact']] as const;
